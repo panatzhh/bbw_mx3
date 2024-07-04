@@ -1,11 +1,10 @@
-/* Container styles */
 .centered-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #1a1a1a; /* Dark background color */
-  color: #fff; /* Light text color */
+  background-color: #1a1a1a;
+  color: #fff;
 }
 
 /* Input styles */
@@ -13,17 +12,17 @@ input {
   width: 50%;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #444; /* Slightly darker border */
+  border: 1px solid #444;
   border-radius: 5px;
   margin-bottom: 20px;
-  background-color: #333; /* Darker input background */
-  color: #fff; /* Light input text color */
+  background-color: #333;
+  color: #fff;
 }
 
 /* Spinner styles */
 .spinner {
   border: 4px solid rgba(0, 0, 0, 0.1);
-  border-left-color: #fff; /* Light spinner color */
+  border-left-color: #fff;
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -43,14 +42,14 @@ input {
 /* BandCards styles */
 .band-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Always 3 cards per row */
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
 /* BandCard styles */
 .band-card {
-  background-color: #e3e3e3; /* Darker card background */
-  border: 1px solid #444; /* Slightly darker border */
+  background-color: #e3e3e3;
+  border: 1px solid #444;
   border-radius: 5px;
   padding: 20px;
   text-align: center;
@@ -69,7 +68,7 @@ input {
 }
 
 .band-card button {
-  background-color: #0074cc; /* Classic blue button color */
+  background-color: #0074cc;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -79,5 +78,5 @@ input {
 }
 
 .band-card button:hover {
-  background-color: #005ea6; /* Slightly darker hover color */
+  background-color: #005ea6;
 }
